@@ -43,8 +43,8 @@ class ProductManager {
 const productManager = new ProductManager();
 
 try {
-    productManager.addProduct(new Product("Camisa", "Descripción de la camisa", 20, "imagen1.jpg", "ABC123", 10));
-    productManager.addProduct(new Product("Pantalón", "Descripción del pantalón", 30, "imagen2.jpg", "DEF456", 15));
+    productManager.addProduct(new Product("Concierto", "Descripción", 20, "imagen1.jpg", "ABC123", 10));
+    productManager.addProduct(new Product("banda", "Descripción", 30, "imagen2.jpg", "DEF456", 15));
 
     console.log('Todos los productos:', productManager.getProducts());
 
